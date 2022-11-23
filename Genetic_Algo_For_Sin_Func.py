@@ -84,7 +84,7 @@ def main():
     # crossover rate
     r_cross = 0.9
     # define range for input
-    bounds = [-1.0, 1.0]
+    bounds = [-(math.pi/2), (math.pi/2)]
     # bits per variable
     n_bits = 16
     # mutation rate
